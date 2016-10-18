@@ -48,12 +48,7 @@ describe("Test that constants are computed properly", function() {
   });
 
 
-  it("should give 77 for constant 20 as P", function() {
-    assert(
-      lib.SumOfPrimes(20) === 77
-    );
-  });
-
+  
 
  it("test for negative values", function() {
     assert(
